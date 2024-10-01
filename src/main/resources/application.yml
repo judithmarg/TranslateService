@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: TranslateService
+server:
+  port: 8081
