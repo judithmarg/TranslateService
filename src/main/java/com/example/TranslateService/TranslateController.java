@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping
-public class TranslateController {
+public class TranslateController implements TranslateApi {
 
     @Autowired
     private TranslateService translateService;
