@@ -1,8 +1,13 @@
 package com.example.TranslateService;
 
+import kong.unirest.Unirest;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
 
 class TranslateServiceTest {
 
@@ -13,4 +18,5 @@ class TranslateServiceTest {
 
         assertEquals("Hello", service.translate("Hola", "espanol","ingles"));
     }
+
 }

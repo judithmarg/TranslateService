@@ -3,10 +3,14 @@ spring:
     name: TranslateService
 server:
   port: 8081
+
+rapidapi:
+  key: fbec94defemshf7704d7f21a10d2p1b3feejsn5e00e687df85
+  host: google-translate1.p.rapidapi.com
 springdoc:
   swagger-ui.path: /openapi/swagger-ui.html
   api-docs.path: /openapi/v3/api-docs
-  packagesToScan: com.example.product
+  packagesToScan: com.example.TranslateService
   pathsToMatch: /**
 api:
   responseCodes:
